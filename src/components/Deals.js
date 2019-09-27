@@ -21,12 +21,20 @@ class Deals extends Component {
     return (
       <div>
         <div>
-          {this.data.map(deal => (
-            <div>
-              <h1>{deal.restaurantName}</h1>
-              <h3>{deal.deal}</h3>
-              <p>{deal.moreDetails}</p>
-              <p>{deal.linkToRestaurant}</p>
+          {this.data.map((deal, i) => (
+            <div className="card" key={i}>
+              <div className="card-title">
+                <h2>{deal.restaurantName}</h2>
+              </div>
+              <div className="card-contents">
+                <div>
+                  <h3>{deal.deal}</h3>
+                  <p>{deal.moreDetails}</p>
+                </div>
+                <div>
+                  <a href={deal.link}>Website</a>
+                </div>
+              </div>
             </div>
           ))}
         </div>

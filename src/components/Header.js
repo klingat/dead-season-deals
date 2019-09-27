@@ -3,8 +3,11 @@ import React, { Component } from "react";
 class Header extends Component {
   render() {
     return (
-      <div>
-        <h1>Dead Season Deals</h1>
+      <div className="Header">
+        <h1>
+          whistler deadseason<span id="deals-blinker">.deals</span>
+        </h1>
+        <h3>Fall 2019</h3>
       </div>
     );
   }
