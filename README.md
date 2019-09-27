@@ -1,3 +1,5 @@
+# Published at: https://klingat.github.io/dead-season-deals/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
