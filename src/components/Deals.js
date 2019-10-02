@@ -3,14 +3,12 @@ import React, { Component } from "react";
 class Deals extends Component {
   data = [
     {
-      id: 1,
-      restaurantName: "Restaurant One",
-      deal: "35$ 5 Cours Meal",
+      restaurantName: "Aura",
+      deal: "3 courses for $39 + wine pairings for $29",
       linkToRestaurant: "www.restaurantone.com",
       moreDetails: "Sunday to Thursday"
     },
     {
-      id: 2,
       restaurantName: "Restaurant Two",
       deal: "2 for 1 Pizzas",
       linkToRestaurant: "www.restauranttwo.com",
