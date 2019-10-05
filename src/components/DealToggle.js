@@ -31,10 +31,7 @@ class DealToggle extends Component {
             </ul>
             <p>{deal.website}</p>
             <p>{deal.phoneNumber}</p>
-            <img
-              src={`require('../../public/images/deals/${deal.image}')`}
-              alt="source image"
-            ></img>
+            <img src={`require('../../public/images/deals/${deal.image}')`} />
           </div>
         )}
       </div>

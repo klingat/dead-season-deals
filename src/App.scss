@@ -3,6 +3,7 @@ $maxWidth: 500px;
 
 body {
   background-color: $backgroundColor;
+  font-family: "Cabin", sans-serif;
 }
 
 .App {
@@ -16,6 +17,7 @@ body {
 .Header {
   width: 100%;
   max-width: $maxWidth;
+  text-align: center;
 }
 
 .Deals {
@@ -36,6 +38,7 @@ body {
   margin-top: -4.5rem;
   .dealTitle h1 {
     font-size: 1rem;
+    font-family: "Roboto", Sans-Serif;
   }
   .dealTitle p {
     font-size: 0.8rem;
