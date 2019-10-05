@@ -12,6 +12,9 @@ body {
     rgba(228, 180, 181, 1) 100%
   );
   font-family: "Montserrat", sans-serif;
+  a {
+    color: $darkTaupe;
+  }
 }
 
 @media (max-width: 650px) {
@@ -104,15 +107,35 @@ body {
   border-top-right-radius: $primaryBorderRadius;
   margin-top: -6rem;
 
-  .dealTitle h3 {
+  .DealToggle--title h3 {
     font-size: 1.2rem;
     margin-top: 0;
   }
 }
 
-.dealContent {
-  // padding-top: 0.5rem;
-  .source-image {
-    max-width: 50%;
+.DealToggle--content {
+  margin-bottom: 1rem;
+}
+
+.DealToggle--actions {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  height: 100%;
+  display: flex;
+  a {
+    height: 20px;
+    padding: 1rem 2rem;
+    margin: 0.4rem;
+    color: $primaryLight;
+    text-decoration: none;
+    background-color: $darkTaupe;
+    border-radius: 0.5rem;
+    &:first-child {
+      margin-left: 0;
+      background-color: $taupe;
+    }
+    i {
+      padding-right: 5px;
+    }
   }
 }
