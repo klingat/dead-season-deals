@@ -63,12 +63,3 @@ class DealToggle extends Component {
 }
 
 export default handleClickOutside(DealToggle);
-
-// // Props
-// deal = {
-//   dealTitle: "",
-//   dealDetails: "",
-//   restaurantName: "",
-//   website: "",
-//   phoneNumber: ""
-// };
