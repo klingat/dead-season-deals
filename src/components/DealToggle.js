@@ -18,7 +18,7 @@ class DealToggle extends Component {
     return (
       <div className="DealToggle" onClick={this.toggleDealDetails}>
         <div className="dealTitle">
-          <h1>{deal.dealTitle}</h1>
+          <h3>{deal.dealTitle}</h3>
           <p>{deal.restaurantName}</p>
         </div>
 

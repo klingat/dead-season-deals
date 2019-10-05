@@ -6,7 +6,9 @@ class Header extends Component {
     return (
       <div className="Header">
         <h1>
-          whistler deadseason<span id="deals-blinker">.deals</span>
+          Whistler's
+          <br />
+          Dead Season Deals
         </h1>
         <img src={logo} />
         <h3>Fall 2019</h3>

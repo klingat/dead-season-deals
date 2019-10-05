@@ -2,8 +2,13 @@ $backgroundColor: #fbf7e7;
 $maxWidth: 500px;
 
 body {
-  background-color: $backgroundColor;
-  font-family: "Cabin", sans-serif;
+  // background-color: $backgroundColor;
+  background: rgb(174, 127, 129);
+  background: linear-gradient(
+    90deg,
+    rgba(174, 127, 129, 1) 0%,
+    rgba(228, 180, 181, 1) 100%
+  );
 }
 
 .App {
@@ -16,37 +21,39 @@ body {
 
 .Header {
   width: 100%;
+  height: 80vh;
   max-width: $maxWidth;
-  text-align: center;
+  // text-align: center;
+  border: 1px solid blue;
 }
 
 .Deals {
-  width: 100%;
+  // width: 100%;
   max-width: $maxWidth;
   div:nth-child(1) {
-    margin-top: 0;
+    // margin-top: 0;
   }
 }
 
 .DealToggle {
-  background-color: white;
-  color: black;
-  padding: 1rem 1.5rem;
-  border: 1px solid black;
-  border-radius: 1.5rem;
-  padding-bottom: 5rem;
-  margin-top: -4.5rem;
+  // background-color: white;
+  // color: black;
+  // padding: 1rem 1.5rem;
+  // border: 1px solid black;
+  // border-radius: 1.5rem;
+  // padding-bottom: 5rem;
+  // margin-top: -4.5rem;
   .dealTitle h1 {
-    font-size: 1rem;
-    font-family: "Roboto", Sans-Serif;
+    // font-size: 1rem;
+    // font-family: "Roboto", Sans-Serif;
   }
   .dealTitle p {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.02rem;
+    // font-size: 0.8rem;
+    // text-transform: uppercase;
+    // letter-spacing: 0.02rem;
   }
 }
 
 .dealContent {
-  padding-top: 0.5rem;
+  // padding-top: 0.5rem;
 }
