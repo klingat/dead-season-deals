@@ -99,6 +99,11 @@ body {
   max-width: $maxWidth;
 }
 
+div.Deals > div:last-child {
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
 .DealToggle {
   background-color: $primaryLight;
   color: $darkTaupe;

@@ -38,11 +38,21 @@ class DealToggle extends Component {
               <a id="call-action" href={`tel:${deal.phoneNumber}`}>
                 <i className="fas fa-phone-alt"></i> Call
               </a>
-              <a id="website-action" href={deal.website} target="_blank">
+              <a
+                id="website-action"
+                href={deal.website}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fas fa-globe"></i> Website
               </a>
             </div>
-            <a id="source-action" href={deal.image} target="_blank">
+            <a
+              id="source-action"
+              href={deal.image}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Source
             </a>
           </div>
