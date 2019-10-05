@@ -16,7 +16,7 @@ class DealToggle extends Component {
   render() {
     const deal = this.props.deal;
     return (
-      <div className="DealToggle" onClick={this.toggleDealDetails}>
+      <div className="DealToggle box-shadow" onClick={this.toggleDealDetails}>
         <div className="dealTitle">
           <h3>{deal.dealTitle}</h3>
           <p>{deal.restaurantName}</p>
