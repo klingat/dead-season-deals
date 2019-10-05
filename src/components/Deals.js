@@ -10,7 +10,7 @@ class Deals extends Component {
         "Include soup or salad + any main course + dessert",
         "Happy hour 3-closing everyday"
       ],
-      website: "www.allseasonsgrillwhistler.ca",
+      website: "https://www.bgurbangrillwhistler.com/",
       phoneNumber: "604-905-5090",
       image: "https://imgur.com/IYOVhyE.jpg"
     },
@@ -22,7 +22,7 @@ class Deals extends Component {
         "Offered Sundays - Thursdays",
         "Reservations recommended"
       ],
-      website: "www.araxi.com",
+      website: "https://www.araxi.com/",
       phoneNumber: "604-932-4540",
       image: "https://imgur.com/8HhdvI9.jpg"
     },
@@ -33,7 +33,7 @@ class Deals extends Component {
         "Try our new prix fixe dinner menu!",
         "Located at Nita Lake lodge"
       ],
-      website: "N/A",
+      website: "http://www.nitalakelodge.com/dining/aura-restaurant-en.html",
       phoneNumber: "604-966-5711",
       image: "https://imgur.com/4OOZ9lu.jpg"
     },
@@ -44,19 +44,19 @@ class Deals extends Component {
         "Beginning September 29th",
         "Available Sundays - Thursdays from 5 PM"
       ],
-      website: "www.baroso.ca",
+      website: "https://baroso.ca/",
       phoneNumber: "604-962-4540",
       image: "https://imgur.com/Wz0VzGi.jpg"
     },
     {
-      restaurantName: "Basalt",
+      restaurantName: "Basalt Wine & Salumeria",
       dealTitle: "3 Course Seasonal Dinner Menu",
       dealDetails: [
         "$26 weekdays",
         "$30 weekends and holidays",
         "Closed Tuesdays & Wednesdays"
       ],
-      website: "wwww.basaltwhistler.com",
+      website: "https://www.basaltwhistler.com/",
       phoneNumber: "604-962-9011",
       image: "https://imgur.com/Iv2t8ZS.jpg"
     },
@@ -64,7 +64,7 @@ class Deals extends Component {
       restaurantName: "Hunter Gather",
       dealTitle: "$9.99 Fall Down Menu Deal",
       dealDetails: ["All day every day from noon to 9 PM"],
-      website: "www.huntergatherwhistler.com",
+      website: "https://huntergatherwhistler.com/",
       phoneNumber: "604-966-2372",
       image: "https://imgur.com/ek7rXys.jpg"
     },
@@ -76,7 +76,7 @@ class Deals extends Component {
         "Dinner from 5:30 PM",
         "Reservations recommended"
       ],
-      website: "www.ilcaminetto.ca",
+      website: "https://www.ilcaminetto.ca/",
       phoneNumber: "604-932-4442",
       image: "https://imgur.com/QJLwg5L.jpg"
     },
@@ -87,7 +87,7 @@ class Deals extends Component {
         "Spend 20$ or more and use code BROKETOBER for free delivery",
         "5 PM - 12 AM"
       ],
-      website: "www.mainstnoodles.com",
+      website: "http://www.mainstnoodles.com/",
       phoneNumber: "604-962-1068",
       image: "https://imgur.com/zzuZCCK.jpg"
     },
@@ -98,7 +98,7 @@ class Deals extends Component {
         "Available 7 days a week until Sunday Oct 13th",
         "Bookings strongly recommended"
       ],
-      website: "www.nagomisushi.com",
+      website: "http://nagomisushi.com/",
       phoneNumber: "604-962-0404",
       image: "https://imgur.com/igPhzmC.jpg"
     },
@@ -110,7 +110,7 @@ class Deals extends Component {
         "$45 Friday - Saturday",
         "Reservations recommended"
       ],
-      website: "wwww.quattrorestaurants.com",
+      website: "http://quattrorestaurants.com/",
       phoneNumber: "604-905-4844",
       image: "https://imgur.com/XO7YYWK.jpg"
     },
@@ -122,7 +122,7 @@ class Deals extends Component {
         "Only until Saturday October 19th",
         "Call for reservations"
       ],
-      website: "www.rimrockwhistler.com",
+      website: "http://rimrockcafe.com/",
       phoneNumber: "604-932-5565",
       image: "https://imgur.com/2ASAVKS.jpg"
     },
@@ -133,7 +133,7 @@ class Deals extends Component {
         "$13 Sake Marg Jugs",
         "Available Sunday to Thursday for groups of 14 or less"
       ],
-      website: "www.sushivillage.com",
+      website: "https://sushivillage.com/",
       phoneNumber: "604-932-3330",
       image: "https://imgur.com/k7wywT5.jpg"
     },
@@ -146,7 +146,7 @@ class Deals extends Component {
         "1/2 price hot sake",
         "Sunday - Thursday (excluding holidays)"
       ],
-      website: "www.teppanvillage.ca",
+      website: "http://www.teppanvillage.ca/",
       phoneNumber: "604-932-2223",
       image: "https://imgur.com/UKX0iZl.jpg"
     }
