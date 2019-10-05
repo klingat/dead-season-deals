@@ -10,11 +10,7 @@ class DealToggle extends Component {
   }
 
   openDetails() {
-    this.setState(() => ({ isOpened: true }));
-  }
-
-  handleClickOutside() {
-    this.setState(() => ({ isOpened: false }));
+    this.setState(prevState => ({ isOpened: !prevState }));
   }
 
   render() {
