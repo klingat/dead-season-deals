@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import handleClickOutside from "react-onclickoutside";
 
 class DealToggle extends Component {
   constructor(props) {
@@ -6,17 +7,21 @@ class DealToggle extends Component {
     this.state = {
       isOpened: false
     };
-    this.toggleDealDetails = this.toggleDealDetails.bind(this);
+    this.openDetails = this.openDetails.bind(this);
   }
 
-  toggleDealDetails() {
-    this.setState(prevState => ({ isOpened: !prevState.isOpened }));
+  openDetails() {
+    this.setState(() => ({ isOpened: true }));
+  }
+
+  handleClickOutside() {
+    this.setState(() => ({ isOpened: false }));
   }
 
   render() {
     const deal = this.props.deal;
     return (
-      <div className="DealToggle box-shadow" onClick={this.toggleDealDetails}>
+      <div className="DealToggle box-shadow" onClick={this.openDetails}>
         <div className="DealToggle--title">
           <h3>{deal.dealTitle}</h3>
           <p>{deal.restaurantName}</p>
@@ -47,7 +52,7 @@ class DealToggle extends Component {
   }
 }
 
-export default DealToggle;
+export default handleClickOutside(DealToggle);
 
 // // Props
 // deal = {
