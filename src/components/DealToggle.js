@@ -7,11 +7,16 @@ class DealToggle extends Component {
       isOpened: false
     };
     this.openDetails = this.openDetails.bind(this);
+    this.stopPropagation = this.stopPropagation.bind(this);
   }
 
   openDetails() {
     console.log("firing?");
     this.setState(prevState => ({ isOpened: !prevState.isOpened }));
+  }
+
+  stopPropagation(e) {
+    e.stopPropagation();
   }
 
   render() {
@@ -31,7 +36,11 @@ class DealToggle extends Component {
               ))}
             </ul>
             <div className="DealToggle--actions">
-              <a id="call-action" href={`tel:${deal.phoneNumber}`}>
+              <a
+                id="call-action"
+                href={`tel:${deal.phoneNumber}`}
+                onClick={this.stopPropagation}
+              >
                 <i className="fas fa-phone-alt"></i> Call
               </a>
               <a
@@ -39,6 +48,7 @@ class DealToggle extends Component {
                 href={deal.website}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={this.stopPropagation}
               >
                 <i className="fas fa-globe"></i> Website
               </a>
@@ -48,6 +58,7 @@ class DealToggle extends Component {
               href={deal.image}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={this.stopPropagation}
             >
               Source
             </a>
