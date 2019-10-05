@@ -10,7 +10,8 @@ class DealToggle extends Component {
   }
 
   openDetails() {
-    this.setState(prevState => ({ isOpened: !prevState }));
+    console.log("firing?");
+    this.setState(prevState => ({ isOpened: !prevState.isOpened }));
   }
 
   render() {
