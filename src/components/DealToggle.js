@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import handleClickOutside from "react-onclickoutside";
 
 class DealToggle extends Component {
   constructor(props) {
@@ -62,4 +61,4 @@ class DealToggle extends Component {
   }
 }
 
-export default handleClickOutside(DealToggle);
+export default DealToggle;
