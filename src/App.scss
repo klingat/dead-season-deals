@@ -78,14 +78,15 @@ body {
   .Header--bottom {
     color: white;
     // padding: 2rem;
-    padding: 2rem 2rem 7rem 2rem;
+    padding: 2rem 2rem 9rem 2rem;
     h1 {
       font-size: 1.8rem;
     }
     h3 {
-      font-weight: 300;
+      font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 1px;
+      opacity: 0.7;
     }
   }
 }
@@ -98,22 +99,20 @@ body {
 .DealToggle {
   background-color: $primaryLight;
   color: $darkTaupe;
-  padding: 1.75rem 2rem 7rem 2rem;
+  padding: 2rem 2rem 7rem 2rem;
   border-top-left-radius: $primaryBorderRadius;
   border-top-right-radius: $primaryBorderRadius;
   margin-top: -6rem;
 
-  .dealTitle h1 {
-    // font-size: 1rem;
-    // font-family: "Roboto", Sans-Serif;
-  }
-  .dealTitle p {
-    // font-size: 0.8rem;
-    // text-transform: uppercase;
-    // letter-spacing: 0.02rem;
+  .dealTitle h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
   }
 }
 
 .dealContent {
   // padding-top: 0.5rem;
+  .source-image {
+    max-width: 50%;
+  }
 }

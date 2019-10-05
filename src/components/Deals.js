@@ -12,7 +12,7 @@ class Deals extends Component {
       ],
       website: "www.allseasonsgrillwhistler.ca",
       phoneNumber: "604-905-5090",
-      image: "2019_all_seasons_grill.jpeg"
+      image: "https://imgur.com/IYOVhyE.jpg"
     },
     {
       restaurantName: "Araxi",
@@ -24,7 +24,7 @@ class Deals extends Component {
       ],
       website: "www.araxi.com",
       phoneNumber: "604-932-4540",
-      image: "2019_araxi.jpeg"
+      image: "https://imgur.com/8HhdvI9.jpg"
     },
     {
       restaurantName: "Aura Restaurant",
@@ -35,7 +35,7 @@ class Deals extends Component {
       ],
       website: "N/A",
       phoneNumber: "604-966-5711",
-      image: "2019_aura.jpeg"
+      image: "https://imgur.com/4OOZ9lu.jpg"
     },
     {
       restaurantName: "Bar Oso",
@@ -46,7 +46,7 @@ class Deals extends Component {
       ],
       website: "www.baroso.ca",
       phoneNumber: "604-962-4540",
-      image: "2019_bar_oso.jpeg"
+      image: "https://imgur.com/Wz0VzGi.jpg"
     },
     {
       restaurantName: "Basalt",
@@ -58,7 +58,7 @@ class Deals extends Component {
       ],
       website: "wwww.basaltwhistler.com",
       phoneNumber: "604-962-9011",
-      image: "2019_basalt.jpeg"
+      image: "https://imgur.com/Iv2t8ZS.jpg"
     },
     {
       restaurantName: "Hunter Gather",
@@ -66,7 +66,7 @@ class Deals extends Component {
       dealDetails: ["All day every day from noon to 9 PM"],
       website: "www.huntergatherwhistler.com",
       phoneNumber: "604-966-2372",
-      image: "2019_hunter_gather.jpeg"
+      image: "https://imgur.com/ek7rXys.jpg"
     },
     {
       restaurantName: "Il Caminetto",
@@ -78,7 +78,7 @@ class Deals extends Component {
       ],
       website: "www.ilcaminetto.ca",
       phoneNumber: "604-932-4442",
-      image: "2019_il_caminetto.jpeg"
+      image: "https://imgur.com/QJLwg5L.jpg"
     },
     {
       restaurantName: "Main Street Noodles",
@@ -89,7 +89,7 @@ class Deals extends Component {
       ],
       website: "www.mainstnoodles.com",
       phoneNumber: "604-962-1068",
-      image: "2019_main_street_noodles.jpeg"
+      image: "https://imgur.com/zzuZCCK.jpg"
     },
     {
       restaurantName: "Nagomi Sushi",
@@ -100,7 +100,7 @@ class Deals extends Component {
       ],
       website: "www.nagomisushi.com",
       phoneNumber: "604-962-0404",
-      image: "2019_nagomi_sushi.jpeg"
+      image: "https://imgur.com/igPhzmC.jpg"
     },
     {
       restaurantName: "Quattro",
@@ -112,7 +112,7 @@ class Deals extends Component {
       ],
       website: "wwww.quattrorestaurants.com",
       phoneNumber: "604-905-4844",
-      image: "2019_quattro.jpeg"
+      image: "https://imgur.com/XO7YYWK.jpg"
     },
     {
       restaurantName: "Rimrock Café",
@@ -124,7 +124,7 @@ class Deals extends Component {
       ],
       website: "www.rimrockwhistler.com",
       phoneNumber: "604-932-5565",
-      image: "2019_rimrock.jpeg"
+      image: "https://imgur.com/2ASAVKS.jpg"
     },
     {
       restaurantName: "Sushi Village",
@@ -135,7 +135,7 @@ class Deals extends Component {
       ],
       website: "www.sushivillage.com",
       phoneNumber: "604-932-3330",
-      image: "2019_sushi_village.jpeg"
+      image: "https://imgur.com/k7wywT5.jpg"
     },
     {
       restaurantName: "Teppan Village",
@@ -148,7 +148,7 @@ class Deals extends Component {
       ],
       website: "www.teppanvillage.ca",
       phoneNumber: "604-932-2223",
-      image: "2019_teppan_village.jpeg"
+      image: "https://imgur.com/UKX0iZl.jpg"
     }
   ];
   render() {
