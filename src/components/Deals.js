@@ -15,6 +15,14 @@ class Deals extends Component {
       image: "https://imgur.com/IYOVhyE.jpg"
     },
     {
+      restaurantName: "Alta Bistro",
+      dealTitle: "Fall Three Course Special $39",
+      dealDetails: ["Sunday - Friday", "Book ahead to get in"],
+      website: "http://www.altabistro.com/",
+      phoneNumber: "604-932-2582",
+      image: "https://imgur.com/bs5s1IC.jpg"
+    },
+    {
       restaurantName: "Araxi",
       dealTitle: "$38 - Five Course Anniversary Menu",
       dealDetails: [
