@@ -4,6 +4,17 @@ import DealToggle from "./DealToggle";
 class Deals extends Component {
   data = [
     {
+      restaurantName: "21 Steps",
+      dealTitle: "Fall Special - 3 Course $40",
+      dealDetails: [
+        "Steaks and lamb chop have additional charge",
+        "Open daily from 5:30 PM"
+      ],
+      website: "http://www.21steps.ca/",
+      phoneNumber: "604-966-2121",
+      image: "https://imgur.com/TOt1HVz.jpg"
+    },
+    {
       restaurantName: "All Seasons Grill",
       dealTitle: "Three Course Menu $24.95 Everyday",
       dealDetails: [
