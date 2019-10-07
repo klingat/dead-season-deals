@@ -41,7 +41,7 @@ class DealToggle extends Component {
                 href={`tel:${deal.phoneNumber}`}
                 onClick={this.stopPropagation}
               >
-                <i className="fas fa-phone-alt"></i> Call
+                <i className="fa fa-phone"></i> Call
               </a>
               <a
                 id="website-action"
@@ -50,7 +50,7 @@ class DealToggle extends Component {
                 rel="noopener noreferrer"
                 onClick={this.stopPropagation}
               >
-                <i className="fas fa-globe"></i> Website
+                <i className="fa fa-globe"></i> Website
               </a>
             </div>
             <a

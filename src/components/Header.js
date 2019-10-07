@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import InfoButton from "./InfoButton";
 
 class Header extends Component {
   render() {
     return (
       <div className="Header box-shadow">
         <div className="Header--top">
-          <div className="Header--info-button box-shadow">?</div>
+          <InfoButton />
         </div>
         <div className="Header--bottom">
           <h1>
