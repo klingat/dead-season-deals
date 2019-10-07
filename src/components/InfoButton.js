@@ -20,7 +20,7 @@ class InfoButton extends Component {
         <p>
           Each restaurant has different start and end dates for their seasonal
           specials. Please call the restaurant in advanced to ensure the special
-          is this ongoing.
+          is still ongoing.
         </p>
         <p>This website has no affiliation with any of these restaurants.</p>
         <p>
