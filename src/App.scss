@@ -152,6 +152,7 @@ div.Deals > div:first-child {
   position: fixed;
   top: 0;
   height: 100%;
+  animation: fadein 0.5s;
 }
 
 .Modal--content--opened {
@@ -224,5 +225,15 @@ div.Deals > div:first-child {
   border-radius: 50%;
   &:hover {
     background-color: $darkTaupe;
+  }
+}
+
+/* Animations */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
