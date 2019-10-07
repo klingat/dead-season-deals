@@ -4,6 +4,8 @@
 
 ### A list of restaurant specials in the Whistler area offered during the shoulder season.
 
+### WIP
+
 ![dead-season-deals banner](https://imgur.com/9Fg72pT.jpg)
 
 ---
