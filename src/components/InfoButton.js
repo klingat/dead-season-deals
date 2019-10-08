@@ -34,7 +34,11 @@ class InfoButton extends Component {
         <p>
           Enjoy and if you see a mistake, or want to add a restaurant to the
           list, please fill out{" "}
-          <a href="https://forms.gle/zKrMySHY1hH6i77Z7" target="_blank">
+          <a
+            href="https://forms.gle/zKrMySHY1hH6i77Z7"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             this form
           </a>
           .
