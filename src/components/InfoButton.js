@@ -11,7 +11,11 @@ class InfoButton extends Component {
           </div>
         }
       >
-        <h1>👋</h1>
+        <h1>
+          <span role="img" aria-label="hand-waving">
+            👋
+          </span>
+        </h1>
         <h1>Hey Whistler friends,</h1>
         <p>
           Please note that all information displayed on this website is
@@ -35,7 +39,12 @@ class InfoButton extends Component {
           </a>
           .
         </p>
-        <p>Enjoy and bon apétit!🍝</p>
+        <p>
+          Enjoy and bon apétit!
+          <span role="img" aria-label="spaghetti">
+            🍝
+          </span>
+        </p>
       </Modal>
     );
   }
