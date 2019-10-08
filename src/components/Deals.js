@@ -134,6 +134,14 @@ class Deals extends Component {
       image: "https://imgur.com/XO7YYWK.jpg"
     },
     {
+      restaurantName: "The Raven Room",
+      dealTitle: "$33 3 Course Dinner",
+      dealDetails: ["5:30 - 10 PM", "Available 7 days a week"],
+      website: "http://www.theravenroom.ca/",
+      phoneNumber: "604-962-0311",
+      image: "https://i.imgur.com/prc3Egb.jpg"
+    },
+    {
       restaurantName: "Rimrock Café",
       dealTitle: "3 Courses For $49",
       dealDetails: [
@@ -144,6 +152,31 @@ class Deals extends Component {
       website: "http://rimrockcafe.com/",
       phoneNumber: "604-932-5565",
       image: "https://imgur.com/2ASAVKS.jpg"
+    },
+    {
+      restaurantName: "Splitz Grill Whistler",
+      dealTitle: "Fall Specials",
+      dealDetails: [
+        "$4.99 Splitz & Lentil Burgers",
+        "$9.99 meals 11-3 Mon-Thurs",
+        "4$ beer / 5$ poutine 3-5pm daily",
+        "15$ burger and beer 6pm to close",
+        "(+ tax)($17.50 Fri & Sat)"
+      ],
+      website: "http://www.splitzgrill.com/",
+      phoneNumber: "604-938-9300",
+      image: "https://i.imgur.com/UsLPmUK.jpg"
+    },
+    {
+      restaurantName: "Stonesedge Kitchen",
+      dealTitle: "25$ - Wine and Charcuterie Deal",
+      dealDetails: [
+        "Every Thursday, get 2 glasses of wine, and a charcuterie board for $25",
+        "12:00 PM until 1:00 AM"
+      ],
+      website: "http://www.stonesedgewhistler.com/",
+      phoneNumber: "604-962-9292",
+      image: "https://i.imgur.com/FS4a21A.jpg"
     },
     {
       restaurantName: "Sushi Village",
