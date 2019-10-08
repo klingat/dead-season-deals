@@ -118,6 +118,9 @@ div.Deals > div:first-child {
 
 .DealToggle--content {
   margin-bottom: 1rem;
+  ul {
+    line-height: 2;
+  }
 }
 
 .DealToggle--actions {
