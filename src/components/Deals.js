@@ -80,6 +80,17 @@ class Deals extends Component {
       image: "https://imgur.com/Iv2t8ZS.jpg"
     },
     {
+      restaurantName: "Brickworks",
+      dealTitle: "Signature Of The Day - $18",
+      dealDetails: [
+        "Enjoy a different daily Signature Dish from Sunday to Thursday, 5pm-12am",
+        "$15 Burger & Bev, Daily 12-5pm"
+      ],
+      website: "http://thebrickworks.ca/",
+      phoneNumber: "604-962-2929",
+      image: "https://imgur.com/4G5Vtwo.jpg"
+    },
+    {
       restaurantName: "Hunter Gather",
       dealTitle: "$9.99 Fall Down Menu Deal",
       dealDetails: ["All day every day from noon to 9 PM"],
