@@ -240,3 +240,12 @@ div.Deals > div:first-child {
     opacity: 1;
   }
 }
+
+.Footer {
+  color: $primaryLight;
+  max-width: 400px;
+  text-align: center;
+  a {
+    color: $primaryLight;
+  }
+}
