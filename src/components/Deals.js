@@ -212,6 +212,17 @@ class Deals extends Component {
       website: "http://www.teppanvillage.ca/",
       phoneNumber: "604-932-2223",
       image: "https://imgur.com/UKX0iZl.jpg"
+    },
+    {
+      restaurantName: "Three Below",
+      dealTitle: "Dinner & a Movie - $24",
+      dealDetails: [
+        "Dinner & a Movie $24, Sunday to Thursday from 5pm",
+        "2 for $20 Appetizers, Daily"
+      ],
+      website: "http://www.threebelow.com/",
+      phoneNumber: "604-962-0601",
+      image: undefined
     }
   ];
   render() {

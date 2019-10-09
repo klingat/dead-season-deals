@@ -53,15 +53,17 @@ class DealToggle extends Component {
                 <i className="fa fa-globe"></i> Website
               </a>
             </div>
-            <a
-              id="source-action"
-              href={deal.image}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={this.stopPropagation}
-            >
-              Source
-            </a>
+            {deal.image && (
+              <a
+                id="source-action"
+                href={deal.image}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={this.stopPropagation}
+              >
+                Source
+              </a>
+            )}
           </div>
         )}
       </div>
