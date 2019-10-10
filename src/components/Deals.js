@@ -122,6 +122,14 @@ class Deals extends Component {
       image: "https://imgur.com/zzuZCCK.jpg"
     },
     {
+      restaurantName: "The Mexican Corner",
+      dealTitle: "$21 3 Course Menu",
+      dealDetails: ["Running Sunday through Thursday"],
+      website: "http://themexicancorner.ca/",
+      phoneNumber: "604-962-4450",
+      image: "https://i.imgur.com/5Mgkxad.jpg"
+    },
+    {
       restaurantName: "Nagomi Sushi",
       dealTitle: "$30 Fall Special Menu",
       dealDetails: [
