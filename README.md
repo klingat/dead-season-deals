@@ -8,6 +8,8 @@
 
 ![dead-season-deals banner](https://imgur.com/9Fg72pT.jpg)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d049ca53-cf7f-40de-b3b7-685236dfea6f/deploy-status)](https://app.netlify.com/sites/sharp-minsky-95c7fe/deploys)
+
 ---
 
 ## Available Scripts
