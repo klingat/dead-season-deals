@@ -1,16 +1,14 @@
 # Whistler's Dead Season deals
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d049ca53-cf7f-40de-b3b7-685236dfea6f/deploy-status)](https://app.netlify.com/sites/sharp-minsky-95c7fe/deploys)
+
 ## [deadseason.deals](https://deadseason.deals) 👈👀
 
 ### A list of restaurant specials in the Whistler area offered during the shoulder season.
 
 ### WIP
 
-![dead-season-deals banner](https://imgur.com/9Fg72pT.jpg)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d049ca53-cf7f-40de-b3b7-685236dfea6f/deploy-status)](https://app.netlify.com/sites/sharp-minsky-95c7fe/deploys)
-
----
+## ![dead-season-deals banner](https://imgur.com/9Fg72pT.jpg)
 
 ## Available Scripts
 
