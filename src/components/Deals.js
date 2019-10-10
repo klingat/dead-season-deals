@@ -133,6 +133,18 @@ class Deals extends Component {
       image: "https://imgur.com/igPhzmC.jpg"
     },
     {
+      restaurantName: "Pasta Lupino",
+      dealTitle: "Dinner for 2 for $49",
+      dealDetails: [
+        "Comes with a bottle of wine (or a jug of beer)",
+        "Special available for dine-in only from 5-9pm",
+        "No reservations"
+      ],
+      website: "http://pastalupino.com/",
+      phoneNumber: "604-905-0400",
+      image: "https://i.imgur.com/IIiVuHb.jpg"
+    },
+    {
       restaurantName: "Quattro",
       dealTitle: "3 Course Menu On Now",
       dealDetails: [
