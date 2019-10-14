@@ -33,7 +33,8 @@ body {
 }
 
 .AppBody {
-  margin: 0.5rem;
+  width: 100%;
+  max-width: $maxWidth;
 }
 
 .box-shadow {
@@ -43,16 +44,14 @@ body {
 }
 
 .Header {
-  width: 100%;
+  margin: 0.5rem;
   height: 80vh;
   max-height: 700px;
-  max-width: $maxWidth;
   background-color: $taupe;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: $primaryBorderRadius;
-  margin-bottom: 0.5rem;
   .Header--top {
     height: 75%;
     background-image: url("https://i.imgur.com/zEow3oQ.jpg");
@@ -94,8 +93,7 @@ body {
 }
 
 .Deals {
-  width: 100%;
-  max-width: $maxWidth;
+  margin: 0.5rem;
 }
 
 div.Deals > div:last-child {
@@ -248,8 +246,10 @@ div.Deals > div:first-child {
 
 .Footer {
   color: $primaryLight;
-  max-width: 400px;
+  max-width: $maxWidth;
   text-align: center;
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
   a {
     color: $primaryLight;
   }
@@ -257,7 +257,6 @@ div.Deals > div:first-child {
 
 .Announcement {
   width: 100%;
-  margin-bottom: 0.5rem;
   background-color: #262626;
   color: $primaryLight;
   display: flex;
@@ -266,7 +265,7 @@ div.Deals > div:first-child {
 }
 
 .Announcement--text {
-  max-width: $maxWidth;
+  max-width: 450px;
   font-size: 0.8rem;
   margin: 0.5rem 1.2rem;
 }
