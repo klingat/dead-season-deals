@@ -11,8 +11,8 @@ class Announcement extends Component {
             </span>
             {"  "}
             Please note that shoulder season for Fall 2019 is slowly coming to
-            and end. Please call the restaurant ahead of time to make sure
-            they're deal is still ongoing.
+            and end. Please call the restaurant ahead of time to make sure their
+            deal is still ongoing.
           </p>
         </div>
       </div>
