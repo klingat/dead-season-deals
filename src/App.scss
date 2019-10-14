@@ -15,6 +15,7 @@ body {
   a {
     color: $darkTaupe;
   }
+  margin: 0;
 }
 
 @media (max-width: 650px) {
@@ -29,6 +30,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.AppBody {
+  margin: 0.5rem;
 }
 
 .box-shadow {
@@ -248,4 +253,20 @@ div.Deals > div:first-child {
   a {
     color: $primaryLight;
   }
+}
+
+.Announcement {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  background-color: #262626;
+  color: $primaryLight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Announcement--text {
+  max-width: $maxWidth;
+  font-size: 0.8rem;
+  margin: 0.5rem 1.2rem;
 }
