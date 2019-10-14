@@ -3,13 +3,17 @@ import "./App.scss";
 import Header from "./components/Header";
 import Deals from "./components/Deals";
 import Footer from "./components/Footer";
+import Announcement from "./components/Announcement";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Deals />
-      <Footer />
+      <Announcement />
+      <div className="AppBody">
+        <Header />
+        <Deals />
+        <Footer />
+      </div>
     </div>
   );
 }
