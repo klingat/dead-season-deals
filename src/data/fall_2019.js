@@ -126,6 +126,14 @@ export const data = [
     image: "https://i.imgur.com/5Mgkxad.jpg"
   },
   {
+    restaurantName: "Mongolie Grill",
+    dealTitle: "50% Off",
+    dealDetails: ["Monday to Thursday", "November 4-21"],
+    website: "https://mongoliegrill.com/",
+    phoneNumber: "604-938-9416",
+    image: "https://i.imgur.com/b2YQmJC.png"
+  },
+  {
     restaurantName: "Nagomi Sushi",
     dealTitle: "$30 Fall Special Menu",
     dealDetails: [
