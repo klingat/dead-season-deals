@@ -1,5 +1,7 @@
 # Whistler's Dead Season deals
 
+**** NOT ACTIVELY BEING WORKED ON ****
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d049ca53-cf7f-40de-b3b7-685236dfea6f/deploy-status)](https://app.netlify.com/sites/sharp-minsky-95c7fe/deploys)
 
 ## [deadseason.deals](https://deadseason.deals) 👈👀
